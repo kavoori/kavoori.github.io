@@ -92,12 +92,12 @@ All you have to do is create a repository in your GitHub account with the name `
 Here are the detailed steps.
 
 1. Create a new github repo as : `username.github.io`
-2. Initialize a new git repo under the Jekyll `blog` folder by running
+2. Initialize a new git repo under the Jekyll `blog` folder by running:
  `git init`
-3. Add the remote origin
+3. Add the remote origin:
 `git remote add origin git@github.com:[username]/[username].github.io.git`
-4. Add and commit
+4. Add and commit:
 `git add --all`
 `git commit -m"Initial commit`
-5. Push to the origin/master
+5. Push to the origin/master:
 `git push -u origin master`
