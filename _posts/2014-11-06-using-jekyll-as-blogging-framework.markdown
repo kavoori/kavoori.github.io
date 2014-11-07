@@ -99,7 +99,7 @@ Here are the detailed steps.
 3. Add the remote origin:
 `git remote add origin git@github.com:[username]/[username].github.io.git`
 4. Add and commit:
-`git add --all`
+`git add --all &&` 
 `git commit -m"Initial commit`
 5. Push to the origin/master:
 `git push -u origin master`
