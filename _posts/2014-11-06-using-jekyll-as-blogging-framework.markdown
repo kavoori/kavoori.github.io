@@ -85,6 +85,19 @@ The following will generate your site into the `_site` folder. Now you can FTP t
 jekyll build
 {% endhighlight %}
 
+Here is the best feature of Jekyll. Host your blog for free at [GitHub Pages](https://pages.github.com/).
 
+All you have to do is create a repository in your GitHub account with the name `githubusername.github.io` and push the entire contents of your `blog` (not just the `blog/_site` folder) to the repo. Give it a few minutes and now browse to `http://githubusername.github.io`. Your blog should be hosted there for free!
 
+Here are the detailed steps.
 
+1. Create a new github repo as : `username.github.io`
+2. Initialize a new git repo under the Jekyll `blog` folder by running
+ `git init`
+3. Add the remote origin
+`git remote add origin git@github.com:[username]/[username].github.io.git`
+4. Add and commit
+`git add --all`
+`git commit -m"Initial commit`
+5. Push to the origin/master
+`git push -u origin master`
