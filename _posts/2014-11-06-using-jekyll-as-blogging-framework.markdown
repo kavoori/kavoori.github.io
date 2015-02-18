@@ -36,7 +36,7 @@ The best way to install Node.js is installing with [nvm](https://github.com/crea
 curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
 {% endhighlight %}
 
-The above script clones the `nvm` repository and also adds the source line to `~.bashrc` (or `~/.bash_profile` or  `~/.profile`)
+The above script clones the `nvm` repository and also adds the source line to `~/.bashrc` (or `~/.bash_profile` or  `~/.profile`)
 
 Run the following to get a list of all the Node.js versions available and choose the version to install.
 
