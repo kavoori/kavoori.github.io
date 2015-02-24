@@ -19,7 +19,7 @@ ERROR [org.apache.jasper.compiler.Compiler] (http-0.0.0.0-8280-2) Compilation er
 	.....
 {% endhighlight %}
 
-Some googling led me to [this](https://bz.apache.org/bugzilla/show_bug.cgi?id=56613) bug and it was suggested there that I would need a newer Eclipse ECJ compiler. Why JBoss is using the Eclipse compiler that is used in Eclipse JDT is beyond me.
+Some googling led me to [this](https://bz.apache.org/bugzilla/show_bug.cgi?id=56613) bug and it was suggested there that I would need a newer Eclipse ECJ compiler. Why JBoss (or Tomcat internally) is using the Eclipse JDT's Java compiler to compile JSP is beyond me.
 
 Fortunately, the ECJ compiler jar was available in the Maven Repo.
 
