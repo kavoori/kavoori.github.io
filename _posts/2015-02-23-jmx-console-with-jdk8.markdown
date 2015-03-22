@@ -31,6 +31,7 @@ Fortunately, the ECJ compiler jar was available in the Maven Repo.
 </dependency>
 {% endhighlight %}
 
+tl;dr
 I grabbed the jar from the above (`ecj-4.4.1.jar`) and copied it to my jboss installation's `jboss-6.1.0.Final/lib/endorsed` folder and restarted it. 
 
 That is all I had to do. It has been working great so far and my jmx-console is back as you can see here:
