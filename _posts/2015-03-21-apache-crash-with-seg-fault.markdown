@@ -66,7 +66,7 @@ do_reload() {
 }    
 {% endhighlight %}
 
-Fortunately, I had a different machine where this was not happening. I got a list of modules that are enabled on that machine and eliminated them from the list of suspects. Starting with each module, I would do the following : 
+Fortunately, I had a different machine where this was not happening. I got a list of modules that are enabled on that machine and eliminated them from the list of suspects. Starting with each of the remaining enabled modules, I would do the following : 
 
 1. Disable the module with `a2dismod`
    Example : `a2dismod access_compat`
