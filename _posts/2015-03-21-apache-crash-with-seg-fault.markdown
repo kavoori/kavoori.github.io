@@ -84,7 +84,7 @@ Fortunately, I had a different machine where this was not happening. I got a lis
 	`ps -ef | grep apache2 | grep -v grep | wc`
 8. Repeat all of the above steps with the next enabled module.
 
-I did this until I found the offender : `mime_magic`
+I did this until I found the offender : `mime_magic`. I am not sure how this is causing the crash, but it was in my case.
 
 tl;dr
 `sudo a2dismod mime_magic && sudo service apache2 restart`
