@@ -80,9 +80,9 @@ Fortunately, I had a different machine where this was not happening. I got a lis
     `ps -ef | grep apache2 | grep -v grep | wc`
 6. If apache is still down, then the above module is not causing it, so re-enable it using `a2enmod` and restart
    `a2enmod access_compat && service apache2 restart`
-7. Check that apache2 came up after enabling the module back and restarting
+7. Check that apache2 actually came back up after re-enabling the module.
 	`ps -ef | grep apache2 | grep -v grep | wc`
-8. Repeat with the next enabled module.
+8. Repeat all of the above steps with the next enabled module.
 
 I did this until I found the offender : `mime_magic`
 
