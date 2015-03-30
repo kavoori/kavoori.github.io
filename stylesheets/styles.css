@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
 
 body {
   padding:50px;
@@ -43,6 +45,11 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+a.blogname {
+  color:#494949;
+  font-weight: bold;
 }
 
 .wrapper {
