@@ -33,7 +33,7 @@ All googling pointed at `log_rotate` being the offender as the shut down would a
 	prerotate
 		if [ -d /etc/logrotate.d/httpd-prerotate ]; then \
 			run-parts /etc/logrotate.d/httpd-prerotate; \
-		fi; \
+		fi;
 	endscript
 }
 {% endhighlight %}
