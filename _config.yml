@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.kavoori.com" # the base hostname & protocol for your site
 twitter_username: rabi_rob
 github_username:  kavoori
-highlighter: pygments
+highlighter: rouge
 
 permalink: /:year-:month-:day/:title.html
 
