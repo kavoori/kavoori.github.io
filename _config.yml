@@ -14,5 +14,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   fenced_code_blocks: true
-
+gems: [jekyll-paginate]
 paginate: 5
