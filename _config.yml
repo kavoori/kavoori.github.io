@@ -6,13 +6,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.kavoori.com" # the base hostname & protocol for your site
 twitter_username: rabi_rob
 github_username:  kavoori
-highlighter: rouge
 
 permalink: /:year-:month-:day/:title.html
 
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
   fenced_code_blocks: true
 gems: [jekyll-paginate]
 paginate: 5
