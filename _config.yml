@@ -14,5 +14,5 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   fenced_code_blocks: true
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 5
