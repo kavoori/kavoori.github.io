@@ -18,7 +18,7 @@ The only requirements are :
 
 
 #### 1. Install Ruby using [Homebrew](http://brew.sh/) or the default package manager on your Linux OS.
-(If you don't have Homebrew on your Mac OSX, you should)
+(If you don't have Homebrew on your Mac OSX, you should install it!)
 {% highlight bash %}
 brew install ruby
 sudo apt-get install ruby
@@ -89,15 +89,15 @@ Here is the best feature of Jekyll.
 
 ### Host your blog for free at [GitHub Pages](https://pages.github.com/).
 
-All you have to do is create a repository in your GitHub account with the name `githubusername.github.io` and push the entire contents of your `blog` (not just the `blog/_site` folder) to the repo. Give it a few minutes and now browse to `http://githubusername.github.io`. Your blog should be hosted there for free!
+All you have to do is create a repository in your GitHub account with the name `[githubusername].github.io` and push the entire contents of your `blog` (not just the `blog/_site` folder) to the repo. Give it a few minutes and now browse to `http://[githubusername].github.io`. Your blog should be hosted there for free!
 
 Here are the detailed steps.
 
-1. Create a new github repo as : `username.github.io`
+1. Create a new github repo as : `[githubusername].github.io`
 2. Initialize a new git repo under the Jekyll `blog` folder by running:
  `git init`
 3. Add the remote origin:
-`git remote add origin git@github.com:[username]/[username].github.io.git`
+`git remote add origin git@github.com:[githubusername]/[githubusername].github.io.git`
 4. Add and commit:
 `git add --all &&` 
 `git commit -m"Initial commit`
